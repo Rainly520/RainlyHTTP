@@ -18,10 +18,12 @@
 *   **文件上传**：POST请求携带头部X-Upload-Password，输入密码后选择文件上传（支持断点续传）
 <br><br>
 
-下载示例：http://IP/文件名（例：http://172.16.0.1/1.zip）
+下载示例：http://IP/文件名
+（例：http://172.16.0.1/1.zip）
 
 
-上传示例：POST http://IP/upload（form-data 格式，字段名 file）
+上传示例：POST http://IP/upload
+（form-data 格式，字段名 file）
 
 
 头部Header携带X-Upload-Password参数 或者 从 URL 参数获取（如 ?password=xxx）
